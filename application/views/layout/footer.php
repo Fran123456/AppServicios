@@ -1,3 +1,3 @@
 <footer>
-	Copyright - Servicios
+	
 </footer>
