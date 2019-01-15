@@ -52,3 +52,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'MenuController';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
+
+//servicios
+$route['Servicios'] = 'ServiciosController/index';
+$route['Agregar-Servicio'] = 'ServiciosController/add_show';
+$route['Editar-Servicio/(:any)'] = 'ServiciosController/edit_show/$1';
+$route['Eliminar-Servicio/(:any)'] = 'ServiciosController/delete__/$1';
+
+//clientes
+$route['Clientes'] = 'ClientesController/index';
+$route['Agregar-cliente'] = 'ClientesController/add_show';
+$route['Editar-cliente/(:any)'] = 'ClientesController/edit_show/$1';
+$route['Eliminar-cliente/(:any)'] = 'ClientesController/delete__/$1';

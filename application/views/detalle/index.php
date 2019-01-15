@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Inicio</title>
+	<title></title>
 	<?php require 'layout/bootstrap.php' ?> <!--BOOSTRAP Y MATERIAL-->
 </head>
 <body>
     <!--INICIO DE LA APLICACION-->
-    <?php require 'application/views/layout/nav.php' ?>
+
 
     <div class="container">
     	<div class="row">
@@ -22,10 +22,10 @@
 							  <!-- Card content -->
 							  <div class="card-body">
 							    <!-- Title -->
-							    <h4 class="card-title">Gestión de clientes</h4>
+							    <h4 class="card-title">Gestión de usuarios</h4>
 							    <!-- Text -->
 							    <!-- Button -->
-							    <a href="<?php echo base_url()?>Clientes" class="btn btn-primary">Ir</a>
+							    <a href="<?php  ?>" class="btn btn-primary">Ir</a>
 
 							  </div>
 							</div>
@@ -47,7 +47,7 @@
 							    <h4 class="card-title">Gestión de servicios</h4>
 							    <!-- Text -->
 							    <!-- Button -->
-							    <a href="<?php echo base_url()?>Servicios" class="btn btn-primary">Ir</a>
+							    <a href="<?php  ?>" class="btn btn-primary">Ir</a>
 
 							  </div>
 							</div>
